@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); 
+    height: 100vh; 
+}
+
+.top, .bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+}
+
+
+.part {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    align-items: center;
+    text-align: center;
+}
+#mail{
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    width:200px;
+    height:40px;
+}
+#password{
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    width:200px;
+    height:40px;
+}
+#submit{
+    padding:15px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.top{
+    
+    background-image: url('https://www.collegebatch.com/static/clg-gallery/malineni-lakshmaiah-womens-engineering-college-prakasam-279612.jpg');
+    background-size: cover; 
+    background-position: center;
+    
+}

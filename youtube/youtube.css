@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu-toggle{
+    display: block;
+    cursor: pointer;
+}
+.menu-toggle input {
+    display: none;
+}
+.menu-toggle span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.2s;
+}
+header{
+    display: inline-block;
+}
+.menu li.logo{
+    float: right;
+    margin: 20px;
+}
+.menu li.logo img {
+    height: 30px; /* Adjust logo height as needed */
+    /* Add any additional styling for the logo image */
+}
